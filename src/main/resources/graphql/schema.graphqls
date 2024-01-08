@@ -13,7 +13,9 @@ enum Teams{
 
 type Query{
 	findAll:[Players]
+	findOne(id:ID):Players
 	
 	
 }
+
 
