@@ -1,0 +1,19 @@
+type Players{
+	id:ID!
+	name:String
+	team: Teams
+}
+
+enum Teams{
+	CSK
+	MI
+	RCB
+	DC
+}
+
+type Query{
+	findAll:[Players]
+	
+	
+}
+
